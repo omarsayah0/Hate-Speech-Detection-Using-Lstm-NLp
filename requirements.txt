@@ -7,5 +7,3 @@ seaborn
 matplotlib
 numpy
 pickle-mixin
-nltk
-nltk-downloader-stopwords
