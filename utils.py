@@ -29,6 +29,8 @@ def load_data():
 
 stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
+import nltk
+nltk.download('stopwords')
 
 def clean_text(text):
     text = text.lower()
