@@ -122,10 +122,9 @@ python -m streamlit run main.py
 ## 📊 Data
 
 - **File**: `hate_speech_data.csv`
-- **Labels**:
-  - `0` → Hate Speech  
-  - `1` → Offensive Language  
-  - `2` → Neither  
+- **Columns**:
+  - `tweet`: Raw text input
+  - `class`: Label (0 = hate speech, 1 = offensive language, 2 = neither)
 
 ---
 
@@ -155,7 +154,17 @@ python -m streamlit run main.py
 
 ## Dependencies
 
-See `requirements.txt`
+From `requirements.txt`:
+
+- `pandas`  
+- `scikit-learn`  
+- `tensorflow`  
+- `nltk`  
+- `streamlit`  
+- `seaborn`  
+- `matplotlib`  
+- `numpy`  
+- `pickle-mixin`
 
 ---
 
