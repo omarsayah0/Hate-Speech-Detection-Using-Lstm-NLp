@@ -1,4 +1,4 @@
-# 🧠 Hate Speech Detection Using LSTM NLP
+# 🧠 ToxiScan
 
 A Streamlit-based application for classifying text into **hate speech**, **offensive language**, or **neither**, using a trained LSTM-based neural network. The app also includes a live comment moderation system.
 
